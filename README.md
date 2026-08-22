@@ -9,7 +9,6 @@ All solutions here are automatically synced using LeetHub upon successful submis
 
 ## 🎯 Platforms Tracked
 * **LeetCode**
-* **GeeksforGeeks**
 
 ## 📂 Repository Structure
 * The files in this repository are automatically organized by the extension.

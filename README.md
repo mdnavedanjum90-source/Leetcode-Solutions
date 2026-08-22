@@ -5,7 +5,7 @@ Welcome to my Data Structures and Algorithms repository! This workspace is dedic
 All solutions here are automatically synced using LeetHub upon successful submission.
 
 ## 🛠️ Tech Stack
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=coffeescript&logoColor=white)
 
 ## 🎯 Platforms Tracked
 * **LeetCode**

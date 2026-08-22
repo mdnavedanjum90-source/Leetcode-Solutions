@@ -18,7 +18,7 @@ All solutions here are automatically synced using LeetHub upon successful submis
 
 ## 👨‍💻 About Me
 **MD Naved Anjum**  
-*First-Year Undergraduate Engineering Student*  
+*Second-Year Undergraduate Engineering Student*  
 **B.Tech. Computer Science and Engineering (Data Sciences)** | Jamia Millia Islamia  
 
 I am actively practicing Java programming to strengthen my fundamental understanding of data structures, algorithms, and object-oriented design. 

@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 8 * * 6"
+permissions: write-all
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,9 +11,9 @@ jobs:
       - name: Sync
         uses: joshcai/leetcode-sync@v1.7
         with:
-          github-token: ${{ github.token }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
-          destination-folder: my-folder
+          destination-folder: LeetCode
           verbose: true
           commit-header: '[LeetCode Sync]'

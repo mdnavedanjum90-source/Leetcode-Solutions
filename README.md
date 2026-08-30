@@ -24,3 +24,11 @@ I am actively practicing Java programming to strengthen my fundamental understan
 
 ---
 *⭐️ Feel free to star this repository if you find it helpful!*
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/mdnavedanjum90-source/Leetcode-Solutions/tree/master/0009-palindrome-number) |
+<!---LeetCode Topics End-->

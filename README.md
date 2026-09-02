@@ -31,4 +31,9 @@ I am actively practicing Java programming to strengthen my fundamental understan
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/mdnavedanjum90-source/Leetcode-Solutions/tree/master/0009-palindrome-number) |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/mdnavedanjum90-source/Leetcode-Solutions/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
+## Array
+|  |
+| ------- |
+| [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/mdnavedanjum90-source/Leetcode-Solutions/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 <!---LeetCode Topics End-->

@@ -1,0 +1,46 @@
+name: Auto-Move LeetHub Submissions
+
+on:
+  push:
+    branches:
+      - main # Make sure this matches your default branch (main or master)
+
+jobs:
+  move-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Move problem folders to LeetCode directory
+        run: |
+          shopt -s nullglob # Prevents loop from running if no folders match
+          moved=0
+          
+          # Ensure target directory exists
+          mkdir -p LeetCode
+          
+          # Loop through all directories starting with a number (LeetHub's format)
+          for dir in [0-9]*/; do
+            # Ensure it doesn't try to move the LeetCode folder into itself
+            if [[ "$dir" != "LeetCode/" ]]; then
+              echo "Moving $dir to LeetCode folder..."
+              git mv "$dir" "LeetCode/"
+              moved=1
+            fi
+          done
+          
+          # If files were moved, commit and push the changes back to GitHub
+          if [ $moved -eq 1 ]; then
+            git commit -m "Auto-move LeetHub submission to LeetCode folder"
+            git push
+          else
+            echo "No new LeetHub folders found in the root directory."
+          fi
